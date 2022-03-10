@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_OUTDATED_NO_LOCKFILE",
+    "err": {
+      "name": "pnpm",
+      "message": "No lockfile in this directory. Run `pnpm install` to generate one.",
+      "code": "ERR_PNPM_OUTDATED_NO_LOCKFILE",
+      "stack": "pnpm: No lockfile in this directory. Run `pnpm install` to generate one.\n    at outdated (/home/raz/.nvm/versions/node/v16.14.0/lib/node_modules/pnpm/dist/pnpm.cjs:123212:15)\n    at /home/raz/.nvm/versions/node/v16.14.0/lib/node_modules/pnpm/dist/pnpm.cjs:123327:39\n    at Array.map (<anonymous>)\n    at outdatedDepsOfProjects (/home/raz/.nvm/versions/node/v16.14.0/lib/node_modules/pnpm/dist/pnpm.cjs:123325:31)\n    at async Promise.all (index 0)\n    at async outdatedDepsOfProjects (/home/raz/.nvm/versions/node/v16.14.0/lib/node_modules/pnpm/dist/pnpm.cjs:123313:38)\n    at async interactiveUpdate (/home/raz/.nvm/versions/node/v16.14.0/lib/node_modules/pnpm/dist/pnpm.cjs:123728:38)\n    at async /home/raz/.nvm/versions/node/v16.14.0/lib/node_modules/pnpm/dist/pnpm.cjs:182170:21\n    at async run (/home/raz/.nvm/versions/node/v16.14.0/lib/node_modules/pnpm/dist/pnpm.cjs:182144:34)\n    at async runPnpm (/home/raz/.nvm/versions/node/v16.14.0/lib/node_modules/pnpm/dist/pnpm.cjs:182363:5)"
+    }
+  }
+}
